@@ -28,5 +28,7 @@ const adicionaItem =(event) =>{
 // **Dica**: utilize a propriedade `event.target` para pegar o elemento clicado.
 
 const removeItem = (event) =>{
+    console.log(event)
+    console.log(event.target)
     event.target.remove()
 }
